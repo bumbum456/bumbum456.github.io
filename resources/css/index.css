@@ -1,0 +1,48 @@
+html {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+body {
+    box-sizing: border-box;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(104, 104, 104);
+}
+
+table {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 650px;
+    border: solid 5px black;
+    display: table;
+    text-align: start;
+    border-radius:10px;
+    background-image: url("../images/IMG_3949.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+th {
+    background-color: salmon;
+}
+
+td {
+    border-top: solid 2px grey;
+    color: white;
+    font-weight: bold;
+}
+
+.tag, .property {
+    background-color: yellowgreen;
+    font-weight: bold;
+    color: black;
+}

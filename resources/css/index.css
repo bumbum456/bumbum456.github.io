@@ -26,18 +26,29 @@ table {
     display: table;
     text-align: start;
     border-radius:10px;
+}
+
+.htmltable {
     background-image: url("../images/IMG_3949.jpg");
     background-size: cover;
     background-position: center;
+    color: white;
+}
+
+.csstable {
+    background-image: url("../images/IMG_3776.jpg");
+    background-size: cover;
+    background-position: center;
+    color: black;
 }
 
 th {
     background-color: salmon;
+    color: black;
 }
 
 td {
     border-top: solid 2px grey;
-    color: white;
     font-weight: bold;
 }
 
